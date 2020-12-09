@@ -1,0 +1,159 @@
+@charset "UTF-8";
+html {
+
+  background-color: lightgray;
+}
+
+*{
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+
+body {
+background-image: url("https://wallpaperaccess.com/full/1095392.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#contenedor{
+  box-shadow: 5px 5px 25px #000;
+  border: solid #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+  background: #fff;
+  height: 1050px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header, #banner, #discografia, #marcas{
+  background: #000;
+  width: 800px;
+  height: 100px;
+}
+
+header{
+  width: 770px;
+  height: 100px;
+  padding: 8px 15px;
+}
+
+header h1{
+  background: #ccc;
+  width: 250px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+
+header #menu{
+  margin-top: 40px;
+  background: #000;
+  width: 490px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+
+}
+
+.primero{
+  border-color:#EC7063;
+  width:100%;
+  border:1px;
+  background-color:#EC7063;
+}
+.primero tr{
+  text-align:center;
+}
+.primero a:hover{
+  color:#E74C3C;
+}
+
+.segundo{
+  border-color:#34495E ;
+  width:100%;
+  border:1px;
+  background-color:# ;
+}
+.segundo tr{
+  text-align:center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.segundo a:hover{
+  color:#E74C3C;
+}
+
+.tabla1{
+  border-color:#AAB7B8  ;
+  width:100%;
+  border:1px;
+  background-color:#AAB7B8  ;
+}
+.tabla1 tr{
+  text-align:left;
+}
+
+#marcas{
+background-color: rgba(0, 0, 0, 0);
+  height: 60px;
+  margin-top: 40px;
+}
+
+footer{
+  background: #f21;
+  width: 760px;
+  height:40px;
+  padding-top: 27px;
+}
+footer p{
+  font-family: arial;
+  font-size: 10px;
+  text-align: center;
+}
+
+#banner{
+  background: #666;
+  height: 295px;
+}
+
+#discografia{
+  background: #fff;
+  height: 225px;
+  width: 760px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#discografia #discografia1{
+  background: #943126;
+  width: 650px;
+  height: 220px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+}
+p {
+  line-height: 75%;
+  font: bold 90% monospace;
+}
+
+#discografia #discografia2{
+  background-image: url("https://i.pinimg.com/originals/cd/72/47/cd724763efe570ad9b6aa72b17dcc067.jpg");
+  width: 700px;
+  height: 220px;
+  display: inline-block;
+}
+.espacio{
+  width: 760px;
+  height: 10px;
+
+}
